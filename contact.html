@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Firaol Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>Firaol Coffee</span>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+        
+        <div class="right-side">
+            <a href="sign-up.html">Sign Up</a>
+            <a href="login.html" class="login-button">
+                <strong>Log In</strong>
+            </a>
+        </div>
+        
+        <label for="hamburger-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Mobile Menu -->
+    <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="#">Blog</a>
+        <a href="sign-up.html">Sign Up</a>
+        <a href="login.html">Log In</a>
+    </div>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Visit us, call, or send us a message.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>123 Coffee Street<br>Downtown City, ST 12345</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>(123) 456-7890<br>Mon-Sun: 6am-10pm</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>info@firaolcoffee.com<br>orders@firaolcoffee.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="map-section">
+                    <h2>Find Us Here</h2>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map"></i>
+                            <h3>Our Location</h3>
+                            <p>123 Coffee Street, Downtown City</p>
+                            <div class="map-hours">
+                                <h4>Opening Hours</h4>
+                                <p>Monday - Friday: 6:00 AM - 10:00 PM</p>
+                                <p>Saturday - Sunday: 7:00 AM - 11:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Firaol Coffee</h3>
+                <p>Premium coffee experience since 2010. We're passionate about bringing you the finest coffee from around the world.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Arid mekelle City Ethiopia</li>
+                    <li><i class="fas fa-phone"></i>+251908773685</li>
+                    <li><i class="fas fa-envelope"></i> info@firaolcoffee.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sun: 6am - 10pm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Firaol Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

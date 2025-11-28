@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Firaol Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>Firaol Coffee</span>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html" class="active">Blog</a>
+        </div>
+        
+        <div class="right-side">
+            <a href="sign-up.html">Sign Up</a>
+            <a href="login.html" class="login-button">
+                <strong>Log In</strong>
+            </a>
+        </div>
+        
+        <label for="hamburger-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Mobile Menu -->
+    <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="sign-up.html">Sign Up</a>
+        <a href="login.html">Log In</a>
+    </div>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>Coffee Blog</h1>
+            <p>Brewing knowledge, stories, and coffee culture</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Coffee Beans">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">December 15, 2023</span>
+                        <h3>The Art of Coffee Roasting</h3>
+                        <p>Discover how different roasting techniques affect the flavor profile of your favorite coffee beans and learn what makes each roast unique.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Coffee Brewing">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">November 28, 2023</span>
+                        <h3>Brewing the Perfect Cup at Home</h3>
+                        <p>Simple tips and techniques to elevate your home coffee brewing game and enjoy café-quality coffee in your own kitchen.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80" alt="Coffee Origins">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">October 12, 2023</span>
+                        <h3>Exploring Coffee Origins</h3>
+                        <p>Take a journey through the world's coffee-growing regions and learn how terroir impacts the taste of your morning brew.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="blog-newsletter">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our blog newsletter and never miss a post about coffee culture, brewing tips, and shop updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                        <button type="submit" class="newsletter-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Firaol Coffee</h3>
+                <p>Premium coffee experience since 2010. We're passionate about bringing you the finest coffee from around the world.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Arid mekelle City Ethiopia</li>
+                    <li><i class="fas fa-phone"></i>+25108773685</li>
+                    <li><i class="fas fa-envelope"></i> info@firaolcoffee.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sun: 6am - 10pm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Firaol Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firaol Coffee Shop - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>Firaol Coffee</span>
+        </div>
+        
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+        
+        <div class="right-side">
+            <a href="sign-up.html">Sign Up</a>
+            <a href="login.html" class="login-button">
+                <strong>Log In</strong>
+            </a>
+        </div>
+        
+        <label for="hamburger-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Mobile Menu -->
+    <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+    <div class="mobile-menu">
+        <a href="#">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Blog</a>
+        <a href="sign-up.html">Sign Up</a>
+        <a href="login.html">Log In</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="discription">
+            <pre>WELCOME TO FIRAOL COFFEE SHOP</pre>
+            <h1>Start your day <br>with a coffee</h1>
+            <pre>ROASTED WITH LOVE</pre>
+            <p>
+                The more you drink coffee the more 
+                you begin to think clearly and see the truth!!
+            </p>
+            <a href="#" class="order-button pulse">
+                Order Now
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Coffee Selection -->
+    <section class="coffee-selection">
+        <h2 class="section-title">Our Special Coffees</h2>
+        <p class="section-subtitle">Handcrafted with premium beans and expert brewing techniques</p>
+        
+        <div class="container-of-images">
+            <div class="coffee-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Cappuccino">
+                </div>
+                <div class="card-content">
+                    <h3>Cappuccino</h3>
+                    <p>Cappuccino is a warm espresso drink topped with steamed milk and thick, frothy foam - creamy, smooth, and perfectly balanced.</p>
+                    <div class="card-price">
+                        <span class="price">150 birr</span>
+                        <a href="#" class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="coffee-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Iced Coffee">
+                </div>
+                <div class="card-content">
+                    <h3>Iced Coffee</h3>
+                    <p>Iced coffee is a cold, refreshing coffee drink made by brewing coffee and chilling it with ice. It's smooth, slightly bold and perfect for hot days!</p>
+                    <div class="card-price">
+                        <span class="price">100 birr</span>
+                        <a href="#" class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="coffee-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Hot Coffee">
+                </div>
+                <div class="card-content">
+                    <h3>Hot Coffee</h3>
+                    <p>Hot coffee is a warm, rich drink made from brewed coffee beans, served steaming for comfort and energy.</p>
+                    <div class="card-price">
+                        <span class="price">120 birr</span>
+                        <a href="#" class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="section-title">Why Choose Us</h2>
+        <p class="section-subtitle">We're committed to providing the best coffee experience</p>
+        
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Premium Beans</h3>
+                <p>We source only the finest ethically-sourced coffee beans from around the world.</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-mortar-pestle"></i>
+                </div>
+                <h3>Expert Roasting</h3>
+                <p>Our master roasters bring out the unique flavors in every batch we prepare.</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <h3>Fast Delivery</h3>
+                <p>Enjoy your favorite coffee delivered fresh to your doorstep in no time.</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3>Award Winning</h3>
+                <p>Recognized as one of the best coffee shops in the region for three consecutive years.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Don't just take our word for it</p>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-slider">
+                <input type="radio" id="slide1" name="testimonial-slides" checked>
+                <input type="radio" id="slide2" name="testimonial-slides">
+                <input type="radio" id="slide3" name="testimonial-slides">
+                
+                <div class="testimonial-slides">
+                    <div class="testimonial-slide slide1">
+                        <p class="testimonial-text">The best coffee I've ever had! The atmosphere is cozy and the staff is incredibly friendly. I come here every morning before work.</p>
+                        <p class="testimonial-author">-mearg fkrsls</p>
+                    </div>
+                    
+                    <div class="testimonial-slide slide2">
+                        <p class="testimonial-text">As a coffee connoisseur, I'm very particular about my brew. Firaol Coffee never disappoints. Their beans are always fresh and perfectly roasted.</p>
+                        <p class="testimonial-author">- kalid jiblil</p>
+                    </div>
+                    
+                    <div class="testimonial-slide slide3">
+                        <p class="testimonial-text">I love their seasonal specials! The pumpkin spice latte in autumn is to die for. This place has become my second home.</p>
+                        <p class="testimonial-author">- Alemudin dibu</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <label for="slide1" class="testimonial-dot"></label>
+                    <label for="slide2" class="testimonial-dot"></label>
+                    <label for="slide3" class="testimonial-dot"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Join Our Coffee Club</h2>
+            <p>Subscribe to our newsletter and get 15% off your first order, plus exclusive offers and coffee tips delivered to your inbox.</p>
+            
+            <form class="newsletter-form" action="#" method="post">
+                <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Firaol Coffee</h3>
+                <p>Premium coffee experience since 2010. We're passionate about bringing you the finest coffee from around the world.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>  Arid mekelle City Ethiopia</li>
+                    <li><i class="fas fa-phone"></i> +251908773685</li>
+                    <li><i class="fas fa-envelope"></i> info@firaolcoffee.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sun: 6am - 10pm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Firaol Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

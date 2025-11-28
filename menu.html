@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Firaol Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>Firaol Coffee</span>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Blog</a>
+        </div>
+        
+        <div class="right-side">
+            <a href="sign-up.html">Sign Up</a>
+            <a href="login.html" class="login-button">
+                <strong>Log In</strong>
+            </a>
+        </div>
+        
+        <label for="hamburger-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+    </header>
+
+    <!-- Mobile Menu -->
+    <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Blog</a>
+        <a href="sign-up.html">Sign Up</a>
+        <a href="login.html">Log In</a>
+    </div>
+
+    <!-- Menu Hero Section -->
+    <section class="menu-hero">
+        <div class="menu-hero-content">
+            <h1>Our Menu</h1>
+            <p>Discover our carefully crafted selection of coffees, teas, and delicious treats</p>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="category-nav">
+                <a href="#coffees" class="category-link active">Coffees</a>
+                <a href="#teas" class="category-link">Teas</a>
+                <a href="#pastries" class="category-link">Pastries</a>
+                <a href="#specials" class="category-link">Specialty Drinks</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coffee Menu -->
+    <section id="coffees" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Coffee Selection</h2>
+            <p class="section-subtitle">Brewed with passion, served with perfection</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Espresso</h3>
+                        <p>Strong, concentrated coffee served in a small shot</p>
+                    </div>
+                    <span class="item-price">90 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Americano</h3>
+                        <p>Espresso shots topped with hot water</p>
+                    </div>
+                    <span class="item-price">100 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso with steamed milk and a thick layer of foam</p>
+                    </div>
+                    <span class="item-price">120 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Latte</h3>
+                        <p>Espresso with steamed milk and light foam</p>
+                    </div>
+                    <span class="item-price">130 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Mocha</h3>
+                        <p>Espresso with chocolate and steamed milk, topped with whipped cream</p>
+                    </div>
+                    <span class="item-price">160 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Macchiato</h3>
+                        <p>Espresso "stained" with a small amount of steamed milk</p>
+                    </div>
+                    <span class="item-price"> 130 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Flat White</h3>
+                        <p>Espresso with microfoam for a velvety texture</p>
+                    </div>
+                    <span class="item-price">110 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Cold Brew</h3>
+                        <p>Slow-steeped cold coffee, smooth and refreshing</p>
+                    </div>
+                    <span class="item-price">100  birr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tea Menu -->
+    <section id="teas" class="menu-section bg-light">
+        <div class="container">
+            <h2 class="section-title">Tea Selection</h2>
+            <p class="section-subtitle">A soothing collection of fine teas from around the world</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>English Breakfast</h3>
+                        <p>Classic robust black tea blend</p>
+                    </div>
+                    <span class="item-price">90 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Earl Grey</h3>
+                        <p>Black tea flavored with bergamot oil</p>
+                    </div>
+                    <span class="item-price">95 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Chamomile</h3>
+                        <p>Soothing herbal tea with calming properties</p>
+                    </div>
+                    <span class="item-price">80 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Green Tea</h3>
+                        <p>Light and refreshing with antioxidant benefits</p>
+                    </div>
+                    <span class="item-price">100 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Peppermint</h3>
+                        <p>Invigorating herbal tea with digestive benefits</p>
+                    </div>
+                    <span class="item-price">110 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Chai Latte</h3>
+                        <p>Spiced tea with steamed milk and honey</p>
+                    </div>
+                    <span class="item-price">120 birr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pastries Menu -->
+    <section id="pastries" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Pastries & Snacks</h2>
+            <p class="section-subtitle">Freshly baked treats to complement your drink</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Croissant</h3>
+                        <p>Buttery, flaky French pastry</p>
+                    </div>
+                    <span class="item-price">100 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Chocolate Chip Muffin</h3>
+                        <p>Freshly baked with rich chocolate chips</p>
+                    </div>
+                    <span class="item-price">120 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Blueberry Scone</h3>
+                        <p>Traditional British pastry with fresh blueberries</p>
+                    </div>
+                    <span class="item-price">100 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Sweet roll with cinnamon sugar and cream cheese frosting</p>
+                    </div>
+                    <span class="item-price"> 140 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Banana Bread</h3>
+                        <p>Moist and flavorful homemade banana bread</p>
+                    </div>
+                    <span class="item-price">130 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Almond Biscotti</h3>
+                        <p>Twice-baked Italian biscuit, perfect for dipping</p>
+                    </div>
+                    <span class="item-price">90 birr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialty Drinks -->
+    <section id="specials" class="menu-section bg-light">
+        <div class="container">
+            <h2 class="section-title">Specialty Drinks</h2>
+            <p class="section-subtitle">Unique creations you won't find anywhere else</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Caramel Cloud Macchiato</h3>
+                        <p>Espresso poured over fluffy foam and caramel drizzle</p>
+                    </div>
+                    <span class="item-price">200 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Honey Lavender Latte</h3>
+                        <p>Espresso with steamed milk, honey, and lavender syrup</p>
+                    </div>
+                    <span class="item-price">220 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Maple Pecan Latte</h3>
+                        <p>Seasonal favorite with maple syrup and toasted pecans</p>
+                    </div>
+                    <span class="item-price"> 210 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Spiced Mexican Mocha</h3>
+                        <p>Rich chocolate with cinnamon and a hint of chili</p>
+                    </div>
+                    <span class="item-price">230 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Iced Vanilla Matcha</h3>
+                        <p>Refreshing matcha green tea with vanilla and milk</p>
+                    </div>
+                    <span class="item-price">210 birr</span>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Pumpkin Spice Latte</h3>
+                        <p>Seasonal espresso with pumpkin and warming spices</p>
+                    </div>
+                    <span class="item-price">300 birr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="menu-cta">
+        <div class="container">
+            <h2>Ready to Order?</h2>
+            <p>Visit us in-store or order online for pickup</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="cta-button">Find Our Location</a>
+                <a href="#" class="cta-button secondary">Order Online</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Firaol Coffee</h3>
+                <p>Premium coffee experience since 2010. We're passionate about bringing you the finest coffee from around the world.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Arid mekelle City Ethiopia</li>
+                    <li><i class="fas fa-phone"></i> +251908773685</li>
+                    <li><i class="fas fa-envelope"></i> info@firaolcoffee.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sun: 6am - 10pm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Firaol Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
